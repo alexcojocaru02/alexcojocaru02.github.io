@@ -1,0 +1,38 @@
+/* Center container */
+body {
+    background: blanchedalmond url('background2.jpg') no-repeat center center fixed; 
+    background-size: cover; /* Ensure the image covers the entire page */
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* Style for profile image */
+  .profile-image {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the image round */
+    border: 2px solid #333;
+  }
+  
+  /* Style for GitHub button */
+  .github-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .github-button:hover {
+    background-color: #555;
+  }
+  
